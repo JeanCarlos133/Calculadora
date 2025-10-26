@@ -4,17 +4,17 @@ def sum(n1, n2):
 
 def rest(n1, n2):
     resultado = n1 - n2
-    return resultado
+    return f"El resultado es: {resultado}"
 
 
 def mult(n1, n2):
     resultado = n1 * n2
-    return resultado
+    return f"El resultado es: {resultado}"
 
 
 def div(n1, n2):
     resultado = n1 / n2
-    return resultado
+    return f"El resultado es: {resultado}"
 
 
 print("opciones \n"
@@ -44,5 +44,8 @@ elif opcion == "4":
     n1 = int(input("Primer numero: "))
     n2 = int(input("Segundo numero: "))
     div(n1, n2)
+
+else:
+    print("El digito introducido no es correcto, intentelo nuevamente")
 
 
